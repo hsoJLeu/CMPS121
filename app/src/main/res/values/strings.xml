@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">assignment1</string>
+    <string name="title_activity_biking">bikingActivity</string>
+    <string name="biking">Biking</string>
+    <string name="joshua_leung">Joshua Leung</string>
+    <string name="cooking">Cooking</string>
+    <string name="coding">Coding</string>
+    <string name="title_activity_cooking">cookingActivity</string>
+    <string name="title_activity_coding">codingActivity</string>
+</resources>
