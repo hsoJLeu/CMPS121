@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
@@ -28,9 +28,9 @@
         <ImageView
             android:id="@+id/imageView"
             android:layout_width="match_parent"
-            android:layout_height="348dp"
+            android:layout_height="300dp"
             android:adjustViewBounds="true"
-            android:cropToPadding="false"
+            android:cropToPadding="true"
             android:paddingLeft="5dp"
             android:paddingRight="5dp"
             app:srcCompat="@drawable/cooking" />
@@ -71,6 +71,5 @@
 
     </LinearLayout>
 
-    <include layout="@layout/content_biking" />
 
-</android.support.design.widget.CoordinatorLayout>
+</android.support.constraint.ConstraintLayout>

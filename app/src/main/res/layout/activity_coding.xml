@@ -4,6 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@android:color/black"
     tools:context=".codingActivity">
 
     <LinearLayout
@@ -19,7 +20,7 @@
             android:paddingBottom="5dp"
             android:text="@string/coding"
             android:textAllCaps="false"
-            android:textColor="@color/colorPrimary"
+            android:textColor="@android:color/holo_green_light"
             android:textSize="24sp"
             android:textStyle="bold"
             android:typeface="sans" />
@@ -32,15 +33,15 @@
             android:cropToPadding="false"
             android:paddingLeft="5dp"
             android:paddingRight="5dp"
-            app:srcCompat="@drawable/cooking" />
+            app:srcCompat="@drawable/coding" />
 
         <TextView
             android:id="@+id/textView4"
             android:layout_width="match_parent"
             android:layout_height="180dp"
             android:padding="5dp"
-            android:text="Did someone say artichoke spinach dip?? Cooking is an essential skill that we all need to now in order to survive. Cooking allows me to get creative with the ingredients I choose for my meals."
-            android:textColor="@android:color/black"
+            android:text="As hard as programming may be sometimes, it is a great way to test my problem solving skills on many different levels. There is so much to learn in this field of computer science and programming is just one of the many outlets to do so."
+            android:textColor="@android:color/holo_green_light"
             android:textSize="18sp"
             android:textStyle="bold" />
 

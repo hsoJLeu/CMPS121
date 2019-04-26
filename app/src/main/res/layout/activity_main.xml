@@ -4,6 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@color/slateGray"
     tools:context=".MainActivity">
 
     <Button
@@ -12,7 +13,7 @@
         android:layout_height="47dp"
         android:layout_marginStart="146dp"
         android:layout_marginLeft="146dp"
-        android:layout_marginTop="43dp"
+        android:layout_marginTop="20dp"
         android:layout_marginEnd="147dp"
         android:layout_marginRight="147dp"
         android:layout_marginBottom="24dp"
@@ -51,7 +52,7 @@
         android:layout_marginEnd="96dp"
         android:layout_marginRight="96dp"
         android:text="@string/joshua_leung"
-        android:textColor="@color/colorPrimary"
+        android:textColor="@color/colorBrown"
         android:textSize="30sp"
         android:visibility="visible"
         app:layout_constraintEnd_toEndOf="parent"
@@ -63,14 +64,22 @@
         android:id="@+id/textView2"
         android:layout_width="394dp"
         android:layout_height="138dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginLeft="8dp"
         android:layout_marginTop="50dp"
+        android:layout_marginEnd="9dp"
+        android:layout_marginRight="9dp"
+        android:layout_marginBottom="45dp"
         android:padding="5dp"
-        android:text="Hi! My name is Joshua Leung and I am passionate about using technology in order to helkp make the world a better place. Three of my favorite pastime activities are biking, cooking, and coding."
+        android:text="Hi! My name is Joshua Leung and I am passionate about using technology in order
+         to help make the world a better place. Three of my favorite pastime activities are biking, cooking, and coding."
         android:textColor="@android:color/holo_orange_dark"
         android:textSize="18sp"
         android:textStyle="bold"
-        app:layout_constraintTop_toBottomOf="@+id/textView"
-        tools:layout_editor_absoluteX="8dp" />
+        app:layout_constraintBottom_toTopOf="@+id/btnBike"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView" />
 
     <Button
         android:id="@+id/btnCode"
@@ -82,10 +91,28 @@
         android:layout_marginEnd="147dp"
         android:layout_marginRight="147dp"
         android:layout_marginBottom="136dp"
+        android:onClick="goToCode"
         android:text="@string/coding"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/btnCook" />
+
+    <Button
+        android:id="@+id/btnExit"
+        android:layout_width="112dp"
+        android:layout_height="46dp"
+        android:layout_marginStart="283dp"
+        android:layout_marginLeft="283dp"
+        android:layout_marginTop="350dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginRight="16dp"
+        android:layout_marginBottom="77dp"
+        android:onClick="exitApp"
+        android:text="Exit"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView2" />
 
 </android.support.constraint.ConstraintLayout>

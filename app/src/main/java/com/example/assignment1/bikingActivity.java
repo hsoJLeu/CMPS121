@@ -12,6 +12,7 @@ public class bikingActivity extends AppCompatActivity {
 
     Button btnOk;
     Button btnDelete;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -23,8 +24,7 @@ public class bikingActivity extends AppCompatActivity {
     }
 
     public void delete(View view){
-        SharedPreferences sh;
-//        sh = getSharedPreferences();
+
 
     }
     public void goBack(View view){
